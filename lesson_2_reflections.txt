@@ -1,0 +1,8 @@
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+	Staging area is include files marked for versioning & are ready to be
+	commited
+	Working directory is just directory in which files are stored
+	Repository indicate top level directory & sub-directory including files
+	to be versioned
