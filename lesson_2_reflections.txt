@@ -6,3 +6,10 @@ repository? What value do you think it offers?
 	Working directory is just directory in which files are stored
 	Repository indicate top level directory & sub-directory including files
 	to be versioned
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	Staging acts as preparation for commit, which allows m to use what
+	should go to the commit, thus enabling me to make sure one commit per
+	logical change
