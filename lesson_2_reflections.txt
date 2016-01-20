@@ -3,34 +3,48 @@ repository? What value do you think it offers?
 
 	Staging area is include files marked for versioning & are ready to be
 	commited
-	Working directory is just directory in which files are stored
-	Repository indicate top level directory & sub-directory including files
-	to be versioned
+	Working directory is just directory in which files are stored repository
+	indicate top level directory & sub-directory including files to be versioned
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	Staging acts as preparation for commit, which allows m to use what
-	should go to the commit, thus enabling me to make sure one commit per
-	logical change
+	Staging acts as preparation for commit, which allows m to use what should
+	go to the commit, thus enabling me to make sure one commit per logical
+	change
 
 What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
 
-	When some changes need to be made which is not part of core development
-	we can create branch for that, even we can create multiple branch for
-	multiple things
+	When some changes need to be made which is not part of core development, we
+	can create branch for that, even we can create multiple branch for multiple
+	things
 
 How do the diagrams help you visualize the branch structure?
 
-	Disgrams will help visual changes happening in the repository, which
-	help us to visualise overall changes happening. Usual development
-	scenerio is linear (simple), if bug, feature is to be incorporated
-	simultaneously visual overview of branches will help a lot.
+	Disgrams will help visual changes happening in the repository, which help
+	us to visualise overall changes happening. Usual development scenerio is
+	linear (simple), if bug, feature is to be incorporated simultaneously
+	visual overview of branches will help a lot.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-	New feature which was developed in side branch is now merge in master
-	along with its changes. So, now the master has its changes as well as of
-	side branch.
+	New feature which was developed in side branch is now merge in master along
+	with its changes. So, now the master has its changes as well as of side
+	branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+	git will take parent branch, current branch & branch to be merged, will try
+	to find changes if no two same file, have changes in same file location
+	(line), then git will do merging manually, if changes are made to same
+	codebase git will raise conflict which need to be resolved manually.
+
+	Automatic
+	Pros: No intervention required
+	Cons: integration testing still required
+	Manual:
+	Pros: Will not lead to logical changes/error
+	Cons: integration & integration testing still required
