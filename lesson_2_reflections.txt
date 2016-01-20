@@ -27,3 +27,10 @@ How do the diagrams help you visualize the branch structure?
 	help us to visualise overall changes happening. Usual development
 	scenerio is linear (simple), if bug, feature is to be incorporated
 	simultaneously visual overview of branches will help a lot.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	New feature which was developed in side branch is now merge in master
+	along with its changes. So, now the master has its changes as well as of
+	side branch.
