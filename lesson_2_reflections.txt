@@ -13,3 +13,10 @@ change?
 	Staging acts as preparation for commit, which allows m to use what
 	should go to the commit, thus enabling me to make sure one commit per
 	logical change
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+	When some changes need to be made which is not part of core development
+	we can create branch for that, even we can create multiple branch for
+	multiple things
