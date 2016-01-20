@@ -20,3 +20,10 @@ history organized? How would branches help?
 	When some changes need to be made which is not part of core development
 	we can create branch for that, even we can create multiple branch for
 	multiple things
+
+How do the diagrams help you visualize the branch structure?
+
+	Disgrams will help visual changes happening in the repository, which
+	help us to visualise overall changes happening. Usual development
+	scenerio is linear (simple), if bug, feature is to be incorporated
+	simultaneously visual overview of branches will help a lot.
