@@ -29,3 +29,10 @@ what would be harder?
 
 	Without Git or Github the changes needs to be maintained seperately with
 	their changes, backup which in turn will require manual merging.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+	master signifies main development which is expected to be production ready.
+	any changes which requires time for development can be done in branch which
+	won't affect master branch i.e. production code
