@@ -17,3 +17,9 @@ one instead of another?
 	branch are part of repository, contain all changes before branching, and
 	only changes after branching
 	forks is github terminology for remote cloning repository on Github server
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+	
+	Awareness of changes are atking place on remote repository, accordingly
+	local changes can modified if neccessary.
