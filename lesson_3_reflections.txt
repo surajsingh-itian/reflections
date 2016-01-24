@@ -23,3 +23,9 @@ stored locally?
 	
 	Awareness of changes are atking place on remote repository, accordingly
 	local changes can modified if neccessary.
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+	Without Git or Github the changes needs to be maintained seperately with
+	their changes, backup which in turn will require manual merging.
