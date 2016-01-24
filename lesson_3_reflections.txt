@@ -9,3 +9,11 @@ automatically stay up-to-date with your remote repository?
 	remote repository might contributed by multiple collabrators, which may have
 	changes over the time, which might not be required by us, thus will ensure
 	the changes are taken when I'm ready.
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+	clones are full copy of repository, either remote or local
+	branch are part of repository, contain all changes before branching, and
+	only changes after branching
+	forks is github terminology for remote cloning repository on Github server
